@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+    <style>
+         *{
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1{
+
+            margin: auto;
+            margin-top: 35px;
+            text-align: center;
+
+        }
+        .imgContainer{
+            margin-top: 25px;
+            margin-left: 135px;
+        }
+        .images{
+            display: block;
+            float: left;
+            width: 20%;
+            padding: 10px;
+            padding-left: 12px;
+        }
+        img{
+            width: 100%;
+            border-radius: 5px;
+        }
+        img:hover{
+            transform: scale(2,2);
+            transition: .3s transform;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul > 
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="regForm.html">Registration</a></li>
+            <li><a href="gallary.html" class="selected">Gallary</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+         </ul>
+    </div>
+    <div >
+        <h1 style="text-align: center; border-bottom: 2px solid black; max-width: fit-content;" class="lorem_head">Insights</h1>
+        <div class="imgContainer">
+            <div class="images"><img src="./Images/bangalore.jpg"></div>
+            <div class="images"><img src="./Images/Bangalore1.jpg"></div>
+            <div class="images"><img src="./Images/banglore2.jpg"></div>
+            <div class="images"><img src="./Images/banglore3.webp"></div>
+            <div class="images"><img src="./Images/banglore4.jpeg"></div>
+            <div class="images"><img src="./Images/banglore5.jpeg"></div>
+            <div class="images"><img src="./Images/banglore6.jpeg"></div>
+            <div class="images"><img src="./Images/banglore7.jpg"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

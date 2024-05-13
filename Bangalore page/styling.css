@@ -1,0 +1,56 @@
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0%;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a{
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 22px;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+}
+
+h3{
+    color: #474163; 
+    margin: auto;
+    border-bottom: 2px solid orange;
+    max-width: fit-content;
+}
+
+.contact{
+    text-align: center;
+    margin: 7px 47px;
+    display: flex;
+}
+
+.contact p{
+    font-size: 15px;
+    margin-inline-end: 10px ;
+}
+
+.navbar .selected{
+    font-weight: bold;
+}
+
+.box1{
+    text-align: center;
+    font-size: 15px;
+}
+
+.field{
+    margin: 10px 10px;
+    margin-left: 550px;
+    text-align: left;
+}
